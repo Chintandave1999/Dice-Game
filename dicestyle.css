@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(to right,#dd5432,#904e95);
+    height: 100vh;
+   /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: auto;
+}
+
+
+.mainsection{
+    width: 80%;
+    height: 80%;
+    border: 1px solid blue;  
+    display: flex;
+    margin: 2% 10%;
+    
+    
+}
+
+.player-1{
+    width: 50%;
+    height: 100%;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:#ee9ca7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+       
+}
+
+.player-2{
+    width: 50%;
+    height: 100%;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:#ffdde1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+       
+}
+
+.score-1{
+    font-size: 5rem;
+    font-weight: 100;
+    color: red;
+    position: relative;
+    bottom: auto;
+     
+      
+}
+
+.score-2{
+    font-size: 5rem;
+    font-weight: 100;
+    color: red;
+    position: relative;
+    bottom: auto;
+     
+      
+}
+
+
+
+.cscore{
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    background-color: #ff0084;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.currentscore1,.currentscore2{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.dice{
+    max-width: 10%;
+    max-height: 15%;
+    position: relative;
+    position: absolute;
+    left: 46%;
+    top: 10rem;
+    border: 2px solid red;
+
+    
+}
+
+.newgame{
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(205, 99, 117);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.rolldice{
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    left: 45%;
+    bottom: 11rem;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(205, 99, 117);
+    border-radius: 5px;
+}
+.rolldice:active{
+    background-color: palevioletred;
+    
+}
+
+.hold{
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    left: 45%;
+    bottom: 8rem;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(205, 99, 117);
+    border-radius: 5px;
+}
+
+.hold:active{
+    background-color: palevioletred;
+}
+
+
